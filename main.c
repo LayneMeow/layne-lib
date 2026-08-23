@@ -99,9 +99,6 @@ static void ksetup(void) {
 
 void kmain(void) {
     ksetup();
-
-    list_disks();
-    mount_filesystem();
     heading("Layne-lib");
     console_set_color(CONSOLE_YELLOW, CONSOLE_BLACK);
     printf("\nHello World\n");
